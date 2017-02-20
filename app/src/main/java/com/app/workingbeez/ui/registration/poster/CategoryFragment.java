@@ -31,6 +31,10 @@ public class CategoryFragment extends Fragment {
         setHasOptionsMenu(true);
     }
 
+    public void initArgument() {
+
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
